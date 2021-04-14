@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.header h1 {
+  color: rgb(3, 60, 101);
+  font-size: 1.3em;
+}

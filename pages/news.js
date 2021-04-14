@@ -1,12 +1,14 @@
 import Layout from "../components/Layout";
 import styles from "../styles/Home.module.css";
 
-export default function Home() {
+const news = () => {
   return (
-    <Layout title="Home">
+    <Layout title="News">
       <div className={styles.top}>
-        <p>this is Home</p>
+        <p>this is News</p>
       </div>
     </Layout>
   );
-}
+};
+
+export default news;

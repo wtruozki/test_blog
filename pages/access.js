@@ -1,12 +1,15 @@
 import Layout from "../components/Layout";
 import styles from "../styles/Home.module.css";
+import React from "react";
 
-export default function Home() {
+const access = () => {
   return (
-    <Layout title="Home">
+    <Layout title="Access">
       <div className={styles.top}>
-        <p>this is Home</p>
+        <p>this is Access</p>
       </div>
     </Layout>
   );
-}
+};
+
+export default access;

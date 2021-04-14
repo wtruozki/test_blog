@@ -1,12 +1,13 @@
 import Layout from "../components/Layout";
 import styles from "../styles/Home.module.css";
-
-export default function Home() {
+const contact = () => {
   return (
-    <Layout title="Home">
+    <Layout title="Contact">
       <div className={styles.top}>
-        <p>this is Home</p>
+        <p>this is Contact</p>
       </div>
     </Layout>
   );
-}
+};
+
+export default contact;
