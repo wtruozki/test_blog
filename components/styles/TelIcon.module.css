@@ -1,0 +1,13 @@
+.tel {
+  position: fixed;
+  bottom: 70px;
+  right: 1em;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0.8em;
+  border-radius: 50%;
+  z-index: 100;
+}
+
+.icon {
+  width: 40px;
+}

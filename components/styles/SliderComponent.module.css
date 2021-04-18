@@ -1,0 +1,11 @@
+.slide_item {
+  width: 100%;
+  padding: 5vw;
+}
+.container {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

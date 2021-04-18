@@ -1,0 +1,29 @@
+.test {
+  background-color: aqua;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  position: absolute;
+}
+
+.test:nth-of-type(2) {
+  background-color: rgb(13, 255, 0);
+}
+.test:nth-of-type(3) {
+  background-color: rgb(255, 238, 0);
+}
+.test:nth-of-type(4) {
+  background-color: rgb(255, 81, 0);
+}
+.test:nth-of-type(5) {
+  background-color: rgb(255, 0, 204);
+}
+.test:nth-of-type(6) {
+  background-color: rgb(0, 30, 255);
+}
+
+.container {
+  position: relative;
+}

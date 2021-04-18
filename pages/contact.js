@@ -1,13 +1,9 @@
 import Layout from "../components/Layout";
-import styles from "../styles/Home.module.css";
+import Parallax from "react-springy-parallax";
+
+import styles from "../styles/contact.module.css";
 const contact = () => {
-  return (
-    <Layout title="Contact">
-      <div className={styles.top}>
-        <p>this is Contact</p>
-      </div>
-    </Layout>
-  );
+  return <Layout title="blog"></Layout>;
 };
 
 export default contact;
