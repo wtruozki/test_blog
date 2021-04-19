@@ -15,11 +15,10 @@
 .footer {
   display: flex;
   justify-content: center;
-  background-color: #222;
-  padding: 2em;
+  padding: 5vh;
   margin-top: 10vh;
 }
 
 .footer p {
-  transform: translateY(-25px);
+  transform: translateY(-10vh);
 }

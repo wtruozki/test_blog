@@ -208,7 +208,7 @@
 .infoItem {
   padding: 1em;
   display: flex;
-  border: 5px solid #fff;
+  border: 3px solid #fff;
 
   align-items: center;
   width: 100%;

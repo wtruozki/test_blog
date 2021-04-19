@@ -3,7 +3,7 @@ import Dock from "./Dock";
 import styles from "./styles/Layout.module.css";
 
 import { motion } from "framer-motion";
-const Layout = ({ children, title = "blog test" }) => {
+const Layout = ({ children, title = "Maha test" }) => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -14,7 +14,7 @@ const Layout = ({ children, title = "blog test" }) => {
         <title>{title}</title>
       </Head>
       <header className={styles.header}>
-        <h1>Blog test</h1>
+        <h1>MAHARAJA</h1>
       </header>
       <main>{children}</main>
       <footer className={styles.footer}>
