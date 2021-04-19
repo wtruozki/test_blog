@@ -13,16 +13,21 @@ export default function BlogId({ blog }) {
     </Layout>
   );
 }
+
 export const getStaticPaths = async () => {
   const key = {
     headers: { "X-API-KEY": process.env.API_KEY },
   };
-  const data = await fetch("https://your-service.microcms.io/api/v1/blog", key)
+  const data = await fetch(
+    "https://watarutest.microcms.io/api/v1/blog_test",
+    key
+  )
     .then((res) => res.json())
     .catch(() => null);
   const paths = data.contents.map((content) => `/blog/${content.id}`);
   return { paths, fallback: false };
 };
+
 // データをテンプレートに受け渡す部分の処理を記述します
 export const getStaticProps = async (context) => {
   const id = context.params.id;
@@ -30,7 +35,7 @@ export const getStaticProps = async (context) => {
     headers: { "X-API-KEY": process.env.API_KEY },
   };
   const data = await fetch(
-    "https://your-service.microcms.io/api/v1/blog/" + id,
+    `https://watarutest.microcms.io/api/v1/blog_test/${id}`,
     key
   )
     .then((res) => res.json())
