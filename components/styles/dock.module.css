@@ -1,5 +1,4 @@
 .dock {
-  width: 100%;
   display: flex;
   position: fixed;
   justify-content: space-around;
@@ -11,11 +10,12 @@
 }
 
 .dock div {
-  padding: 0.5em 2em;
+  padding: 5vw;
+  width: 100%;
 }
 
 .dock_logo {
-  width: 30px;
+  width: 10vw;
   color: #ccc;
   cursor: pointer;
 }

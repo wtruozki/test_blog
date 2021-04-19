@@ -18,7 +18,7 @@ const Layout = ({ children, title = "blog test" }) => {
       </header>
       <main>{children}</main>
       <footer className={styles.footer}>
-        <p>&copy; 2021 MAHARAJA All rights reserved.</p>
+        <p>&copy; 2021 MAHARAJA </p>
       </footer>
       <Dock />
     </motion.div>

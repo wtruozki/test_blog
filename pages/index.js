@@ -101,28 +101,19 @@ export default function Home({ blogs }) {
             </div>
             <div className={styles.infoItem}>
               <img src="./rental.png" alt="レンタルスペース" />
-              <h3>
-                Rental <br />
-                Space
-              </h3>
+              <h3>Rental Space</h3>
             </div>
 
             <Link href="/">
               <div className={styles.infoItem}>
                 <img src="./members.png" alt="メンバーズカード" />
-                <h3>
-                  Members <br />
-                  Card
-                </h3>
+                <h3>Members Card</h3>
               </div>
             </Link>
             <Link href="/">
               <div className={styles.infoItem}>
                 <img src="./mail.png" alt="メールマガジン" />
-                <h3>
-                  Mail <br />
-                  Magazine
-                </h3>
+                <h3>Mail Magazine</h3>
               </div>
             </Link>
             <Link href="/">

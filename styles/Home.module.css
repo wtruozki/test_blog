@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   scroll-snap-align: start;
   justify-content: center;
   max-width: 1600px;
@@ -25,7 +25,6 @@
 }
 
 .slide_container {
-  background-image: url("../public/logo.png");
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
@@ -37,10 +36,12 @@
   background-color: #fff;
   color: black;
   padding: 2em;
+  min-height: 100vh;
 }
 
 .event_container {
   min-height: 50vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,7 +53,6 @@
 
 .event_container ul {
   background-color: rgb(255, 255, 255);
-  border-radius: 7px;
   padding: 1em;
   margin: 1em;
 }
@@ -79,7 +79,7 @@
   margin: 1em;
   z-index: 30;
   border: 3px solid #bc8b30;
-  border-radius: 7px;
+
   padding: 1em;
 }
 
@@ -191,7 +191,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+
   scroll-snap-align: start;
   justify-content: center;
   max-width: 1600px;
@@ -209,9 +209,9 @@
   padding: 1em;
   display: flex;
   border: 5px solid #fff;
-  border-radius: 7px;
+
   align-items: center;
-  width: 45%;
+  width: 100%;
   margin-bottom: 1em;
   transition: background-color 0.2s;
 }

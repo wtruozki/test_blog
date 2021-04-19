@@ -1,6 +1,6 @@
 .tel {
   position: fixed;
-  bottom: 70px;
+  bottom: 15vh;
   right: 1em;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 0.8em;
